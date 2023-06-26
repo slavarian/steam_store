@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    a   {
+  text-decoration:none;
+  color: rgb(221, 221, 221);
+  font-weight: bold;
+        }
+    #store_btn {
+        color: rgb(30, 58, 219);
+        border-bottom: 2px solid rgb(30, 58, 219);
+    }
+
+    .nav {
+        display: flex;
+        border: 1px solid rgba(255, 255, 255, 0.171);
+        border-radius: 15px;
+    }
+    
+ 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background: linear-gradient(0.40turn, #1d2e5d 55%, rgb(0, 183, 255));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h5 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+p {
+    text-align: center;
+    color: white;
+}
+h1,
+h4 {
+    color: rgb(245, 253, 255);
+    text-shadow: 2px 2px 2px black;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.418);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.themeBar {
+    background: rgba(148, 148, 148, 0.267);
+    width: 8em;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 2em;
+}
+
+.themeBar button {
+    height: 1em;
+    width: 1em;
+    border-radius: 4px;
+    border: transparent;
+}
+
+.bd-example img {
+    height: 37em;
+}
+
+.shop {
+    background: #29407e;
+}
+
+.container-box {
+    margin: 0.6em auto;
+    width: 69.5em;
+}
+
+.mx-auto {
+    background: rgba(0, 0, 0, 0.26);
+    border: 1px solid rgba(255, 255, 255, 0.171);
+}
+
+.img-fluid {
+    height: 8rem;
+    width: 17rem;
+    padding: 10px 10px;
+}
+
+.btn {
+    font-weight: bold;
+    border: 2px solid;
+}
+.buy_btn {
+    min-width: 45px;
+    background: rgba(40, 160, 40, 0.555);
+    border: 1px solid rgb(40, 160, 40);
+    border-radius: 0.3rem;
+    color: rgb(246, 246, 246);
+    width: 120px;
+    height: 45px;
+    margin-bottom: 20px;
+    margin-left: 15;
+}
+
+
+label s {
+    padding-right: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+#link {
+    margin: -7.5em 20em;
+    float: right;
+    background: rgba(0, 0, 0, 0.062);
+    width: 20em;
+    color: rgb(99, 219, 99);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#link:hover {
+    color: rgb(55, 202, 55);
+    text-decoration: none;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.507);
+    height: 4em;
+    color: #f0f8ff;
+    word-spacing: 3px;
+    font-size: 1.3em;
+}
+
+.footer a {
+    color: aqua;
+}
+
+.social {
+    float: right;
+    margin-right: 1rem;
+}
+
+.social i {
+    cursor: pointer;
+}
+
+
+
+</style>
+<body style="background-color: rgb(34, 47, 63);">
+       <div class="content">
+        <div class="nav">
+        <div style="height: 8vh; width: 100%; ; 
+        display: flex;  align-items: center; justify-content: center; 
+        flex-direction: column;"><h2>STEAM</h2></div>
+        <div style="height: 8vh; width: 100%; ; display: 
+        flex;  align-items: center; justify-content: center; flex-direction: column;"><a id="store_btn" href="">МАГАЗИН</a></div>
+        <div style="height: 8vh; width: 100%; ; display:
+         flex; align-items: center; justify-content: center; flex-direction: column;"><a href="">СООБЩЕСТВО</a></div>
+        <div style="height: 8vh; width: 100%; ; display:
+         flex;  align-items: center; justify-content: center; flex-direction: column;"><a href="http://127.0.0.1:8000/games/info/">О НАС</a></div>
+        <div style="height: 8vh; width: 100%; ; display:
+         flex;  align-items: center; justify-content: center; flex-direction: column;"><a href="">ПОДДЕРЖКА</a></div>
+        </div>
+        <div class="container-box">
+            <div class="bd-example">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.ibb.co/tPJJk2V/1-HJJiw-S-1024x576.png" class="d-block w-100"
+                                alt="Bloodstained">
+                            <div>
+                                <h5>Bloodstained Ritual of the night</h5>
+                                <p>Battle through
+                                    a demon-infested castle and defeat its master</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ibb.co/ZhJ6hVn/wp3276758.jpg" class="d-block w-100" alt="pubg">
+                            <div>
+                                <h5>PLAYER UNKNOWN'S BATTLEGROUNDS</h5>
+                                <p>Gather
+                                    supplies and outwit your opponents to become the last person standing</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ibb.co/56G3DDH/wp3282919.jpg" class="d-block w-100" alt="Frost Punk">
+                            <div>
+                                <h5>Frost punk</h5>
+                                <p>What decisions will you make to ensure your society's survival? What will you do
+                                    when pushed to breaking point? Who will you become in the process?</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="https://i.ibb.co/YDGVc2J/wp3400358.png" class="d-block w-100" alt="CoD">
+                            <div>
+                                <h5>Call of Duty Black Ops 4</h5>
+                                <p>first Call of Duty
+                                    title without a traditional single-player campaign mode.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="https://i.ibb.co/tJBVpkF/wp3971403.jpg" class="d-block w-100" alt="Sinking City">
+                            <div>
+                                <h5>Sinking City</h5>
+                                <p>You're a private investigator, uncovering the truth of what has possessed the city
+                                    and
+                                    corrupted the minds of its inhabitants</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <section class="shop">
+                <h1 align="center">Hot Sale</h1>
+                <h4 align="center">Check our hottest sales from this week</h4>
+                <article class=" game mx-auto">
+                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/692850/header.jpg?t=1561513720"
+                        class="img-fluid rounded">
+                    <a id="link" href="#">Bloodstained Ritual of the night</a>
+                   
+                    <button class="buy_btn">BUY:<s>36.99$</s>14.40$</button>
+                    <p class=" w-100 description col-md-auto" style="color: white;">Bloodstained: Ritual of the Night is
+                        an exploration-focused, side-scroller action RPG by Koji Igarashi. Play as Miriam, an orphan
+                        scarred
+                        by an alchemist's curse that slowly crystallizes her body. Battle through
+                        a demon-infested castle and defeat its master to save yourself,
+                        and all of humanity!</p>
+                </article>
+                <article class=" game mx-auto">
+                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/578080/header.jpg?t=1556089957"
+                        class="img-fluid rounded">
+                    <a id="link" href="#">PUBG</a>
+                   
+                    <button class="buy_btn">BUY:<s>36.99$</s>14.40$</button>
+                    <p class=" w-100 description col-md-auto" style="color: white;">PLAYERUNKNOWN'S BATTLEGROUNDS is a
+                        battle royale shooter that pits 100 players against each other in a struggle for survival.
+                        Gather
+                        supplies and outwit your opponents to become the last person standing.</p>
+                </article>
+
+                <article class=" game mx-auto">
+                    <img src="https://images.gog.com/5301f0691a8d54feb261a2d5161e4e4202774dabbad8d0147f2e59e98826731e.jpg"
+                        class="img-fluid rounded">
+                    <a id="link" href="#">Frost Punk</a>
+                   
+                    <button class="buy_btn">BUY:<s>36.99$</s>14.40$</button>
+                    <p class=" w-100 description col-md-auto" style="color: white;">Frostpunk is the first society
+                        survival
+                        game. As the ruler of the last city on Earth, it is your duty to manage both its citizens and
+                        its
+                        infrastructure. What decisions will you make to ensure your society's survival? What will you do
+                        when pushed to breaking point? Who will you become in the process?</p>
+                </article>
+
+                <article class=" game mx-auto">
+                    <img src="https://i.ibb.co/SJvJJNK/Callof-Duty-Black-Ops4-Logo.jpg" class="img-fluid rounded">
+                    <a id="link" href="#">Call of Duty Black Ops 4</a>
+                    <button class="buy_btn">BUY:<s>36.99$</s>14.40$</button>
+                    <p class=" w-100 description col-md-auto" style="color: white;">Black Ops 4 is the first Call of
+                        Duty
+                        title without a traditional single-player campaign mode. Instead, it features the Solo Missions
+                        mode, which focuses on the backstories of the game's multiplayer characters, known as
+                        "Specialists".
+                        The missions take place between Black Ops II and III chronologically. </p>
+                </article>
+                <article class=" game mx-auto">
+                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/750130/header.jpg?t=1561132104"
+                        class="img-fluid rounded">
+                    <a id="link" href="#">Sinking City</a>
+                    <button class="buy_btn">BUY:<s>36.99$</s>14.40$</button>
+                    <p class=" w-100 description col-md-auto" style="color: white;">In the 1920s, on the East Coast of
+                        the
+                        United States, the half-submerged city of Oakmont is gripped by supernatural forces. You're a
+                        private investigator, uncovering the truth of what has possessed the city and corrupted the
+                        minds of
+                        its inhabitants... and yours. </p>
+                </article>
+            </section>
+            <footer class="footer">
+                &copy;2023
+                <section class="social">
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-codepen"></i>
+                </section>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
